@@ -1,0 +1,9 @@
+I"x(function() {
+  jQuery(function() {
+    if (true) {
+      return alert("Near Bottom");
+    }
+  });
+
+}).call(this);
+:ET
