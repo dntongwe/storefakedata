@@ -1,0 +1,9 @@
+I"º(function() {
+  jQuery(function() {
+    if ($(window).scrollTop() > $(document).height() - $(window).height() - 50) {
+      return console.log("new bottom");
+    }
+  });
+
+}).call(this);
+:ET
