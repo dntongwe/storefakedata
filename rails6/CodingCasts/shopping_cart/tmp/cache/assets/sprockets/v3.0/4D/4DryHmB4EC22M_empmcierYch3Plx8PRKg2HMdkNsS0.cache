@@ -1,0 +1,9 @@
+I"µ(function() {
+  jQuery(function() {
+    if ($(windows).scrollTop() > $(document).height() - $(widow).height() - 50) {
+      return alert('near bottom');
+    }
+  });
+
+}).call(this);
+:ET

@@ -18,6 +18,12 @@
   <%= @product.category.name %>
 </p>
 <% end %>
+     
+
+   <% form_for peeroduct.cart_items.build do |f| %>
+       <%= f.hidden_field :product_id %>
+       <%= f.submit "Add to Cart" %>
+     <% end %>
 
 <p>
   <%= link_to 'Edit', edit_product_path(@product) %> |

@@ -1,0 +1,10 @@
+I"ñ(function() {
+  jQuery(function() {
+    if ($(windows).scrollTop() > $(document).height() - $(widow).height() - 50) {
+      alert('near bottom');
+      return $getScript($(".pagination .next_page").attr('href'));
+    }
+  });
+
+}).call(this);
+:ET

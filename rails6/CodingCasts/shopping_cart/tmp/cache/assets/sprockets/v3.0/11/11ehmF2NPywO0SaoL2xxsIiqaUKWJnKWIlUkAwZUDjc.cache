@@ -1,0 +1,10 @@
+I"Ó(function() {
+  jQuery(function() {
+    alert("Near Bottom");
+    if ($(window).scrollTop > $(document).height() - $(window).height() - 50) {
+      return console.log('near bottom');
+    }
+  });
+
+}).call(this);
+:ET

@@ -1,0 +1,11 @@
+I"ì(function() {
+  jQuery(function() {
+    return $(window).scroll(function() {
+      if ($(window).scrollTop() > $(document).height() - $(window).height() - 50) {
+        return alert("near bottom");
+      }
+    });
+  });
+
+}).call(this);
+:ET
